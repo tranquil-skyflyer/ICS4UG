@@ -18,7 +18,7 @@ public class Conditionals {
             agn=sc.nextLine().charAt(0);
             if (agn=='e'){
                 go=false;
-            }elseif (agn=='r'){
+            }else if (agn=='r'){
                 go=true;
             }
         }
