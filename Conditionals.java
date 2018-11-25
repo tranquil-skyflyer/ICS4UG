@@ -14,7 +14,7 @@ public class Conditionals {
             for (int i=0;i<=decNumber;i++) {
             System.out.println(((i/2)/2)%2+""+(i/2)%2+""+i%2);
             }
-            System.out.println("Press 'e' to end code, or 'r' to run code again");
+            System.out.println("Press 'e' to end code, or 'r' to run code again, followed by 'enter'");
             agn=sc.nextLine().charAt(0);
             if (agn=='e'){
                 go=false;
